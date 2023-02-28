@@ -1,6 +1,7 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,8 +16,8 @@ jobs:
       - name: Build
         run: cmake -B build && cmake --build build
 
-      # - name: Upload Artifacts
-      #   uses: actions/upload-artifact@v2
-      #   with:
-      #     name: build
-      #     path: build/**/crknob.dll
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: build/**/crknob.dll
