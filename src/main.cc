@@ -50,7 +50,6 @@ int Entry() {
       " --user-data-dir=\locales\user\"
       " --disk-cache-dir=\locales\user\"
       " --incognito"
-#       " --disable-features=CopyLinkToText"  不可用
       " www.baidu.com"
       L" ";
   WCHAR args[32768]; // Max length, https://stackoverflow.com/a/28452546
