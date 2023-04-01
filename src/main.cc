@@ -50,7 +50,7 @@ int Entry() {
       " --user-data-dir=\"User Data\""
       " --disk-cache-dir=\"User Data\""
       " --incognito"
-      " --disable-features=CopyLinkToText"
+#       " --disable-features=CopyLinkToText"  不可用
       " www.baidu.com"
       L" ";
   WCHAR args[32768]; // Max length, https://stackoverflow.com/a/28452546
