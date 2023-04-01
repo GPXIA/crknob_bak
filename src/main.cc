@@ -48,7 +48,6 @@ int Entry() {
       " --disable-features=RendererCodeIntegrity"
       " --force-local-ntp"
       " --user-data-dir=\"User Data\""
-      " --disable-features=CopyLinkToText"
       L" ";
   WCHAR args[32768]; // Max length, https://stackoverflow.com/a/28452546
   wcsncpy(args, line, skipFirst - line); // Keep argv[0]
