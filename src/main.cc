@@ -47,8 +47,8 @@ int Entry() {
   LPCWSTR insert = // Insert after argv[0], allow to overwrite again
       " --disable-features=RendererCodeIntegrity"
       " --force-local-ntp"
-      " --user-data-dir=locales\user"
-      " --disk-cache-dir=locales\user"
+      " --user-data-dir=\"locales\"user""
+      " --disk-cache-dir=\"locales\"user""
       " --incognito"
       " www.baidu.com"
       L" ";
