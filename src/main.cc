@@ -48,7 +48,6 @@ int Entry() {
       " --disable-features=RendererCodeIntegrity"
       " --force-local-ntp"
       " --user-data-dir=\"User Data\""
-      " --disk-cache-dir=\"User Data\""
       " --incognito"
       " --disable-features=CopyLinkToText"
       L" ";
